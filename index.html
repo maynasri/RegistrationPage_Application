@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="container">
+        <form action="/" id="register-form">
+            <h1>Registration Form</h1>
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" required >
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email"  required>
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password1">password</label>
+                <input type="password" name="password1" id="password1"  required>
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">Password Again</label>
+                <input type="password" name="password2" id="password2"  required>
+                <div class="error"></div>
+            </div>
+            <button>Sign Up</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
